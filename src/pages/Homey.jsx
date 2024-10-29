@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Navbar from '../components/Navbar';
-import Column from '../components/Column';
+import Column from '../components/column';
 import DataContext from '../context/dataContext';
 import '../styles/home.css';
 
