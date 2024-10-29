@@ -11,10 +11,7 @@ import '../styles/home.css';
         ));
     };
 const Home = () => {
-    
-
- 
-
+   
     return (<>
           <Navbar />
         <div className="board-wrapper">
