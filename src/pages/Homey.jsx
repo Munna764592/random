@@ -4,14 +4,16 @@ import Column from '../components/Column';
 import DataContext from '../context/dataContext';
 import '../styles/home.css';
 
-const Home = () => {
-    const { tickets, sortTickets } = useContext(DataContext);
-
-    const renderColumns = () => {
+   const renderColumns = () => {
+       const { tickets, sortTickets } = useContext(DataContext);
         return Object.entries(tickets).map(([group, tickets]) => (
             <Column key={group} title={group} cardData={sortTickets(tickets)} />
         ));
     };
+const Home = () => {
+    
+
+ 
 
     return (<>
           <Navbar />
