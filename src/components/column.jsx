@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from './card';
 import '../styles/column.css';
 import DisplayIcon from '../assets/icons_FEtask/Display.svg';
 import ThreeDotMenuIcon from '../assets/icons_FEtask/3 dot menu.svg';
