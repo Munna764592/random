@@ -1,6 +1,6 @@
 // components/Card.js
 import React from "react";
-import TagSection from "./TagSection";
+import TagSection from "./Tagsection";
 
 import '../styles/card.css';
 
